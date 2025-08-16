@@ -39,8 +39,7 @@ def snowman(snowman_word):
         if is_word_guessed(snowman_word, correct_letter_guess_statuses):
             print("Congratulations, you win!")
             return
-        # if  len(wrong_guesses_list) >=7:
-        #     print(f"Sorry, you lose! The word was {snowman_word}")
+        
     print(f"Sorry, you lose! The word was {snowman_word}")    
     
 
